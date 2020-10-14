@@ -5,8 +5,8 @@
     <publication id="30be-82f9-3ac6-a8cf" name="FAQ v1 04/03/2020"/>
   </publications>
   <costTypes>
-    <costType id="a243-e717-9f06-3838" name="Initiative" defaultCostLimit="-1.0"/>
-    <costType id="2d32-f521-cdf1-473b" name="Force Points" defaultCostLimit="-1.0"/>
+    <costType id="a243-e717-9f06-3838" name="Initiative" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="2d32-f521-cdf1-473b" name="Force Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="87e2-b8dd-45f2-21a5" name="Barrage">
@@ -1422,7 +1422,7 @@
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea2b-518f-6cf9-a23a" type="max"/>
           </constraints>
           <costs>
-            <cost name="Force Points" typeId="2d32-f521-cdf1-473b" value="4.0"/>
+            <cost name="Force Points" typeId="2d32-f521-cdf1-473b" value="7.0"/>
             <cost name="Initiative" typeId="a243-e717-9f06-3838" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1897,8 +1897,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ef85-f98e-4d04-8d6e" name="Arab Irregular Riflemen" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="9db6-14f2-27b1-0cc9" value="2.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="50c1-f7c1-99a4-a5b3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f0d-b40e-b044-0e83" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9db6-14f2-27b1-0cc9" type="min"/>
       </constraints>
       <profiles>
         <profile id="3b06-0aaa-91d3-0f77" name="Arab Irregular Riflemen" publicationId="0449-70e1-21ec-f471" page="47" hidden="false" typeId="0028-4f98-401d-8b0c" typeName="Unit">
@@ -3323,7 +3331,7 @@
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f9b-d1bd-a933-f014" type="max"/>
           </constraints>
           <costs>
-            <cost name="Force Points" typeId="2d32-f521-cdf1-473b" value="7.0"/>
+            <cost name="Force Points" typeId="2d32-f521-cdf1-473b" value="6.0"/>
             <cost name="Initiative" typeId="a243-e717-9f06-3838" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -3334,7 +3342,7 @@
       </entryLinks>
       <costs>
         <cost name="Initiative" typeId="a243-e717-9f06-3838" value="1.0"/>
-        <cost name="Force Points" typeId="2d32-f521-cdf1-473b" value="0.0"/>
+        <cost name="Force Points" typeId="2d32-f521-cdf1-473b" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="393b-1573-8be3-20f3" name="Ottoman Mulzaim san Command Team" page="" hidden="false" collective="false" import="true" type="unit">
@@ -4047,6 +4055,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5aef-c6ed-ea98-0a63" name="British Riflemen" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="b9dd-8a55-1cb1-fbd8" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="50c1-f7c1-99a4-a5b3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9dd-8a55-1cb1-fbd8" type="max"/>
       </constraints>
