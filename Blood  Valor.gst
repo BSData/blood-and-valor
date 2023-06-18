@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8673-27a3-2308-77d8" name="Blood &amp; Valor" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8673-27a3-2308-77d8" name="Blood &amp; Valor" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="e568-bb77-58cb-d3b5" name="Blood and Valor"/>
     <publication id="a2c8-e186-d505-1c23" name="FAQ v1 04/03/2020"/>
+    <publication id="fd38-3108-091c-56fe" name="Blood And Valor: End of Empires"/>
   </publications>
   <costTypes>
     <costType id="68ed-8066-7728-0393" name="Force Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -50,6 +51,8 @@
     <categoryEntry id="67a1-13eb-7ebe-3e14" name="Riflemen" hidden="false"/>
     <categoryEntry id="31c8-7c39-1c00-599e" name="Close Combat Specialists" hidden="false"/>
     <categoryEntry id="8308-bccd-4d88-98a3" name="HMG" hidden="false"/>
+    <categoryEntry id="5cbb-f214-e1ea-23f4" name="Command Upgrades" hidden="false"/>
+    <categoryEntry id="bd5c-df4c-87ae-06f8" name="Cavalry" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="6c38-5037-9dcc-45f3" name="No Restrictions" hidden="false"/>
@@ -132,12 +135,10 @@ Line of Sight and Range are determinded from the model holding the Flamethrower.
 
 Line of Sight and Range are determined from the Heavy Machine Gun model.</description>
     </rule>
-    <rule id="ebae-515f-360d-7602" name="Heavy (Infantry Support Gun)" publicationId="e568-bb77-58cb-d3b5" page="28" hidden="false">
-      <description>This unit may not take a Shoot action in the same activation that it takes and Advance action. This unit cannot use the Run action and cannot move more than 4&quot; in an activation. If the crew of this gun is ever reduced to 1 model, the gun can no longer be moved.
+    <rule id="ebae-515f-360d-7602" name="Heavy (Field Gun)" publicationId="fd38-3108-091c-56fe" page="27" hidden="false">
+      <description>This unit many not move and is emplaced permanently in one position for the duration of the game. The gun can be swiveled on the spot, to change its firing arc. The gun cannot shoot in the same turn that it was swiveled. If hte crew of this gun is ever reduced to 1 model, the gun can no longer be swiveled. If the crew of this gun is ever reduced to 1 model, the gun can no longer be swiveled. If this weapon rolls a success on its Shoot Action, roll 6 more D10&apos;s with a target number of 7. The defender rolls 1d10 for each successful save (Cover bonuses are not applied for Field Gun saves). Defender removes 1 model for each failed save. Resolve is performed as normal. Line of sight and range are determined from the Field Gun model.
 
-If this weapon rolls a success on its Shoot action, roll 5 more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Infantry Support Gun saves). Defender removes 1 model for each failed save. Resolve test is performed as normal.
-
-Line of Sight and Range are determined from the Infantry Support Gun.</description>
+When firing at armored vehicles treat the Field Gun as a Heavy Gun (page 96 core rule book).</description>
     </rule>
     <rule id="3f65-576b-3c6d-13e3" name="Heavy (Trench Catapult)" publicationId="e568-bb77-58cb-d3b5" page="27" hidden="false">
       <description>This unit may not take a Shoot action in the same activation that it takes and Advance action. This unit cannot use the Run action and cannot move more than 4&quot; in an activation. If the crew of this gun is ever reduced to 1 model, the gun can no longer be moved.
@@ -221,6 +222,28 @@ Line of Sight and Range are determined from the model holding the Sniper Rifle.<
     <rule id="2605-6d7e-851b-7877" name="Inspired Leadership" hidden="false">
       <description>If the officer unit is removed from play, Antonina Palshina, takes over command of the remaining  forces. Her unit is now treated as the command team, with a command range of 4” and 1 Command Point.</description>
     </rule>
+    <rule id="ef3d-530e-7568-a485" name="Heavy (Infantry Support Gun)" publicationId="e568-bb77-58cb-d3b5" page="28" hidden="false">
+      <description>This unit may not take a Shoot action in the same activation that it takes and Advance action. This unit cannot use the Run action and cannot move more than 4&quot; in an activation. If the crew of this gun is ever reduced to 1 model, the gun can no longer be moved.
+
+If this weapon rolls a success on its Shoot action, roll 5 more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Infantry Support Gun saves). Defender removes 1 model for each failed save. Resolve test is performed as normal.
+
+Line of Sight and Range are determined from the Infantry Support Gun.</description>
+    </rule>
+    <rule id="1c0c-994b-b675-58d9" name="Heavy (Trench Mortar)" publicationId="fd38-3108-091c-56fe" page="27" hidden="false">
+      <description>This unit may not take a Shoot action in the same activation that it takes and Advance action. This unit cannot use the Run action and cannot move more than 4&quot; in an activation. If the crew of this gun is ever reduced to 1 model, the gun can no longer be moved.
+
+If this weapon rolls a success on its Shoot action, roll 5 more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Trench Catapult saves). Defender removes 1 model for each failed save. Resolve test is performed as normal.
+
+Line of Sight and Range are determined from the Trench Mortar model. Friendly troops do not block line of sight for a Trench Mortar.
+
+Trench Mortars do nto affect tanks and armored vehicles.</description>
+    </rule>
+    <rule id="e48e-49e8-26e2-206c" name="Tankgeweher" hidden="false">
+      <description>When shooting at a tank or armored car with a Tankgeweher, the attack rolls 1D10. If the armored vehicle is hit, the defender being attacked rolls 3 dice for their resolve test. For each result of a 1 during the Resolve test, the attacking player makes 1 roll on the Lucky Hits table.</description>
+    </rule>
+    <rule id="0884-1bac-1fe6-e9ca" name="Tachanka" publicationId="fd38-3108-091c-56fe" page="28" hidden="false">
+      <description>A horse-drawn machine gun, usually a cart or an open wagon with a Heavy Machine Gun installed in the back. A tachanka could be pulled by two to four horses and required a crew of two or three (one driver and a machine gun crfew).</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="4782-36f7-377c-8416" name="Flamethrower" publicationId="e568-bb77-58cb-d3b5" page="27" hidden="false" typeId="4e27-f466-2d49-aa96" typeName="Weapon">
@@ -297,6 +320,13 @@ Line of Sight and Range are determined from the model holding the Sniper Rifle.<
       <characteristics>
         <characteristic name="Arc of Fire" typeId="6825-d018-0d99-6301">Forward 180</characteristic>
         <characteristic name="Range" typeId="7fd2-b7fd-b233-e1a6">6-24</characteristic>
+        <characteristic name="Shots" typeId="5d14-5c46-92b0-bc88">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="13d4-efbd-a18c-eb4e" name="Tankgeweher" hidden="false" typeId="4e27-f466-2d49-aa96" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Arc of Fire" typeId="6825-d018-0d99-6301">360</characteristic>
+        <characteristic name="Range" typeId="7fd2-b7fd-b233-e1a6">-</characteristic>
         <characteristic name="Shots" typeId="5d14-5c46-92b0-bc88">1</characteristic>
       </characteristics>
     </profile>
