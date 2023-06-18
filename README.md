@@ -1,11 +1,11 @@
-Blood & Valor
+Victory at Sea
 ==================
 
-[![GitHub release](https://img.shields.io/github/release/BSData/blood-valor.svg?style=flat-square)](https://github.com/BSData/blood-valor/releases/latest)
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/blood-valor/latest.svg?style=flat-square)](https://github.com/BSData/blood-valor/releases)
-[![Open Bug issues](https://img.shields.io/github/issues/BSData/blood-valor/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/blood-valor/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![GitHub contributors](https://img.shields.io/github/contributors/BSData/blood-valor.svg?style=flat-square)](https://github.com/BSData/blood-valor/graphs/contributors)
-[![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/blood-valor.svg?style=flat-square)](https://github.com/BSData/blood-valor/pulse/monthly)
+[![GitHub release](https://img.shields.io/github/release/BSData/victory-at-sea.svg?style=flat-square)](https://github.com/BSData/victory-at-sea/releases/latest)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/victory-at-sea/latest.svg?style=flat-square)](https://github.com/BSData/victory-at-sea/releases)
+[![Open Bug issues](https://img.shields.io/github/issues/BSData/victory-at-sea/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/victory-at-sea/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![GitHub contributors](https://img.shields.io/github/contributors/BSData/victory-at-sea.svg?style=flat-square)](https://github.com/BSData/victory-at-sea/graphs/contributors)
+[![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/victory-at-sea.svg?style=flat-square)](https://github.com/BSData/victory-at-sea/pulse/monthly)
 
 [![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://discord.gg/KqPVhds)
 
@@ -42,8 +42,8 @@ Great, thank you! Now, you have some options:
 * [BattleScribe Data on Appspot][]
 * [Getting Started wiki][]
 
-[Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/blood-valor
-[Open Issue directly]: https://github.com/BSData/blood-valor/issues
+[Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/victory-at-sea
+[Open Issue directly]: https://github.com/BSData/victory-at-sea/issues
 [BattleScribe homepage]: http://www.battlescribe.net/
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started#contributing
