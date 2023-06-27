@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb0c-c5ec-899c-d4b6" name="German Army" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb0c-c5ec-899c-d4b6" name="German Army" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4314-80a1-523f-3791" name="German Army" hidden="false">
       <categoryLinks>
@@ -37,6 +37,7 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc2-ea34-d473-072e" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="2272-407b-7144-7613" name="Command Upgrades" hidden="false" targetId="5cbb-f214-e1ea-23f4" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -1059,7 +1060,7 @@ Line of Sight and Range are determinded from the model holding the Flamethrower.
         <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="940a-8b5a-9b38-30a1" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="940a-8b5a-9b38-30a1" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f45d-b75e-ca22-730c" type="max"/>
       </constraints>

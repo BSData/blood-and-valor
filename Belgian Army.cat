@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11ef-1851-7c53-cb28" name="Belgian Army" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11ef-1851-7c53-cb28" name="Belgian Army" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="240e-dd03-1c4d-0117" name="Belgian Army" hidden="false">
       <categoryLinks>
@@ -37,6 +37,7 @@
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76cd-35ff-e6ff-bb00" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="a447-794e-9c05-eebe" name="Command Upgrades" hidden="false" targetId="5cbb-f214-e1ea-23f4" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -430,7 +431,7 @@
         <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5bb7-9c8c-1763-f666" name="Garde Civique Ineperienced Riflemen" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5bb7-9c8c-1763-f666" name="Garde Civique Inexperienced Riflemen" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="779d-8e38-9253-8ada" name="Tough" publicationId="e568-bb77-58cb-d3b5" page="38" hidden="false">
           <description>Rmove 1 point of Fatigue from thsi unit before rolling during Rally actions.</description>
@@ -757,7 +758,7 @@
         <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f480-87b9-f5ec-a39a" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f480-87b9-f5ec-a39a" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f403-e644-838d-44e3" type="max"/>
       </constraints>

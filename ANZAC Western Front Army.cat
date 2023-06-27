@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8884-7509-ea3c-ae99" name="ANZAC Western Front Army" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8884-7509-ea3c-ae99" name="ANZAC Western Front Army" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="5245-8a2f-d91f-04f9" name="ANZAC Western Front Army" hidden="false">
       <categoryLinks>
@@ -37,6 +37,7 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c3-5808-8bc5-7219" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="3d24-dcd9-cd2f-2cfb" name="Command Upgrades" hidden="false" targetId="5cbb-f214-e1ea-23f4" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -890,7 +891,7 @@ Line of Sight and Range are determined from the Trench Catapult model. Friendly 
         <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a46-06d8-4995-d4a8" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6a46-06d8-4995-d4a8" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ed-43a2-b620-f540" type="max"/>
       </constraints>

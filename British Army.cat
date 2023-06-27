@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="55d5-0809-8160-6774" name="British Army" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="55d5-0809-8160-6774" name="British Army" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="71f8-50c0-6ee1-31b1" name="British Army" hidden="false">
       <categoryLinks>
@@ -42,6 +42,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e16-4dad-9c31-c12d" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="4591-90f5-4f22-de8f" name="Command Upgrades" hidden="false" targetId="5cbb-f214-e1ea-23f4" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -1231,7 +1232,7 @@ Friendly Troops do not block line of sight for Rifle Grenade&apos;s Shoot tests.
         <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe91-be74-aa66-bb82" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fe91-be74-aa66-bb82" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ec-28bd-fd03-e278" type="max"/>
       </constraints>

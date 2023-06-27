@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8d8f-7992-39cf-b449" name="American Army" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8d8f-7992-39cf-b449" name="American Army" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="1442-41ed-c44e-97e6" name="American Army" hidden="false">
       <categoryLinks>
@@ -42,6 +42,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="591e-3650-c1c8-ed54" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="e4b7-681d-6d20-fc36" name="Command Upgrades" hidden="false" targetId="5cbb-f214-e1ea-23f4" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -513,7 +514,7 @@
           <modifierGroups>
             <modifierGroup>
               <modifiers>
-                <modifier type="set" field="c72f-8c86-3f6f-6f32" value="1.0">
+                <modifier type="set" field="c72f-8c86-3f6f-6f32" value="0.0">
                   <conditions>
                     <condition field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a8a-132d-0c6d-25d0" type="equalTo"/>
                   </conditions>
@@ -1076,7 +1077,7 @@ Line of Sight and Range are determined from the Infantry Support Gun.</descripti
         <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bbd8-53c8-2016-5a6a" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bbd8-53c8-2016-5a6a" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8956-af58-a523-dc3f" type="max"/>
       </constraints>

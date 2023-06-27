@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0226-e8c9-7117-51d5" name="ANZAC Army" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0226-e8c9-7117-51d5" name="ANZAC Army" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="5245-8a2f-d91f-04f9" name="ANZAC Army" hidden="false">
       <categoryLinks>
@@ -27,7 +27,7 @@
         </categoryLink>
         <categoryLink id="8bf2-f47a-da7b-5c1d" name="Support" hidden="false" targetId="8a98-dc03-b3f4-eeb6" primary="false">
           <modifiers>
-            <modifier type="increment" field="d3c3-5808-8bc5-7219" value="0.0">
+            <modifier type="increment" field="d3c3-5808-8bc5-7219" value="1.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1807-d10a-531c-67ee" repeats="1" roundUp="false"/>
               </repeats>
@@ -37,6 +37,7 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c3-5808-8bc5-7219" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="8c49-3498-6e85-e9fe" name="Command Upgrades" hidden="false" targetId="5cbb-f214-e1ea-23f4" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -884,7 +885,7 @@ Line of Sight and Range are determined from the Trench Catapult model. Friendly 
         <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1a52-b12e-35c7-5a76" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1a52-b12e-35c7-5a76" name="Trench Mortar Team" publicationId="fd38-3108-091c-56fe" page="27" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ba-bf98-8245-5840" type="max"/>
       </constraints>

@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="12e7-4467-4dcc-a947" name="Royal Serbian Army 1914-1918" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="8673-27a3-2308-77d8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="0658-b21c-fddb-a179" name="Royal Serbian Army" hidden="false">
+      <categoryLinks>
+        <categoryLink id="6837-0d3f-4b3d-586c" name="Close Combat Specialists" hidden="false" targetId="31c8-7c39-1c00-599e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e3d-23ce-66cf-50db" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b407-0dcd-5925-4dca" name="Command" hidden="false" targetId="46c4-9b7c-2612-66d5" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="922d-5d46-16f4-343d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a9-e91e-ea4f-66b8" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4d2a-c94d-e683-2f6e" name="Core" hidden="false" targetId="1807-d10a-531c-67ee" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a079-0d75-61f5-5343" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89b0-95de-9e8b-31b4" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3a7a-caf1-6110-460e" name="HMG" hidden="false" targetId="8308-bccd-4d88-98a3" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed91-84ab-b1aa-bbd3" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="9011-9a6e-068d-7c89" name="Riflemen" hidden="false" targetId="67a1-13eb-7ebe-3e14" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b99-601c-cd78-771a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="bf7c-e032-7bb3-5276" name="Support" hidden="false" targetId="8a98-dc03-b3f4-eeb6" primary="false">
+          <modifiers>
+            <modifier type="increment" field="d126-4775-c65a-9c80" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1807-d10a-531c-67ee" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d126-4775-c65a-9c80" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="77d6-9628-610b-4dd7" name="Command Upgrades" hidden="false" targetId="5cbb-f214-e1ea-23f4" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="7371-3907-0d2e-4836" name="Field Gun" hidden="false" collective="false" import="true" targetId="3a88-95b4-7340-c826" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d764-1a68-be51-a725" name="New CategoryLink" hidden="false" targetId="8a98-dc03-b3f4-eeb6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="612e-54a4-de19-183d" name="Artillery Barrage" hidden="false" collective="false" import="true" targetId="d5d1-4e45-4c88-e2b8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="29c7-b4c2-eb0b-bc9d" name="New CategoryLink" hidden="false" targetId="8a98-dc03-b3f4-eeb6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c405-20d5-4bda-1fd5" name="Captain Command Team" hidden="false" collective="false" import="true" targetId="aa84-c618-7de4-5c70" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="836d-9182-6ae1-fad9" name="New CategoryLink" hidden="false" targetId="46c4-9b7c-2612-66d5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a917-c84d-eace-cf7a" name="Corporal Milunka Savic Riflemen" hidden="false" collective="false" import="true" targetId="f385-9acb-cffa-67e2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="02d8-b699-8489-8476" name="New CategoryLink" hidden="false" targetId="1807-d10a-531c-67ee" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f36a-4a0f-97a5-b7f5" name="Cavalry Unit" hidden="false" collective="false" import="true" targetId="7991-244c-5599-93e1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8aee-5c1f-b919-a94c" name="New CategoryLink" hidden="false" targetId="8a98-dc03-b3f4-eeb6" primary="true"/>
+        <categoryLink id="d7de-07ef-9952-85a4" name="Cavalry" hidden="false" targetId="bd5c-df4c-87ae-06f8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1ddb-f64f-9678-2c4a" name="First Lieutenant Command Team" hidden="false" collective="false" import="true" targetId="61f3-89ca-23ec-83e8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="30e5-9c13-8acd-52d8" name="New CategoryLink" hidden="false" targetId="46c4-9b7c-2612-66d5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7c79-ce94-53a5-ec6e" name="Cavalry Command Team" hidden="false" collective="false" import="true" targetId="14a4-bce3-3463-93aa" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ed7f-4be8-3199-56af" name="New CategoryLink" hidden="false" targetId="5cbb-f214-e1ea-23f4" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="96e1-a6d2-a4b7-e6bc" name="Riflemen" hidden="false" collective="false" import="true" targetId="c887-b583-7201-4fd2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d72f-7896-c7c1-4fdb" name="New CategoryLink" hidden="false" targetId="1807-d10a-531c-67ee" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7b29-a069-a7d8-4a68" name="Medic" hidden="false" collective="false" import="true" targetId="817d-f061-40fd-85f5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c32f-b84b-c020-eb86" name="New CategoryLink" hidden="false" targetId="5cbb-f214-e1ea-23f4" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7a93-7911-67a8-1152" name="Sniper" hidden="false" collective="false" import="true" targetId="34b5-fc1a-e323-b286" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6b29-c033-b174-017f" name="New CategoryLink" hidden="false" targetId="8a98-dc03-b3f4-eeb6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="43bc-0b39-8029-a95d" name="Flagbearer/Musician" hidden="false" collective="false" import="true" targetId="5376-4d2b-0168-1fd2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c277-7e44-c325-a54c" name="New CategoryLink" hidden="false" targetId="5cbb-f214-e1ea-23f4" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7a7a-a339-a20e-779d" name="Gas Barrage" hidden="false" collective="false" import="true" targetId="4782-8406-08f4-a4ff" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="479c-5725-94fd-6817" name="New CategoryLink" hidden="false" targetId="8a98-dc03-b3f4-eeb6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d17a-9983-ec0f-efff" name="Second Lieutenant Command Team" hidden="false" collective="false" import="true" targetId="7d18-9393-4d5e-2151" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="23de-d718-419e-e5bd" name="New CategoryLink" hidden="false" targetId="46c4-9b7c-2612-66d5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e62e-1d9c-48d9-ed37" name="HMG Team" hidden="false" collective="false" import="true" targetId="1949-f4e1-7141-338f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="66b3-973c-53d5-3ba4" name="New CategoryLink" hidden="false" targetId="8a98-dc03-b3f4-eeb6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="d5d1-4e45-4c88-e2b8" name="Artillery Barrage" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="814a-fa06-5437-c9c8" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="15.0"/>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4782-8406-08f4-a4ff" name="Gas Barrage" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc6-85a0-656b-10dc" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="10.0"/>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1949-f4e1-7141-338f" name="HMG Team" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c09-b323-106a-eccf" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6720-241f-d9c5-981f" name="Heavy Machine Gun (HMG)" hidden="false" targetId="b2cd-c19d-fcc9-e343" type="profile"/>
+        <infoLink id="4333-f957-5cce-b708" name="Heavy (Heavy Machine Gun)" hidden="false" targetId="72e1-ba72-61b0-bbe2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="316f-c776-b771-3ea1" name="HMG" hidden="false" targetId="8308-bccd-4d88-98a3" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9e84-e2ee-f677-e8c0" name="Soldier" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ba0-2d52-19e3-af5c" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f288-948c-9e72-eb86" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d325-33ca-74f5-1705" name="Soldier" hidden="false" typeId="7fb1-1a16-229f-b7b6" typeName="Unit">
+              <characteristics>
+                <characteristic name="Shoot" typeId="e51e-c21c-82c7-cc74">6</characteristic>
+                <characteristic name="Close Combat" typeId="35b9-e1b9-c6af-8cd7">6</characteristic>
+                <characteristic name="Shoot Save" typeId="25f3-8abf-392e-c887">6</characteristic>
+                <characteristic name="Close Combat Save" typeId="7a04-e5ac-d545-f7bb">7</characteristic>
+                <characteristic name="Resolve" typeId="c797-eaf9-cb12-a26b">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="1.0"/>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34b5-fc1a-e323-b286" name="Sniper" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="f177-fce3-e6e8-808a" name="Hidden Setup" hidden="false" targetId="30df-4a34-d73c-d9c9" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="417f-4a45-1003-f128" name="Sniper" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee50-d5d4-03f8-fa71" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fdb2-94e4-e063-8734" name="Sniper" hidden="false" typeId="7fb1-1a16-229f-b7b6" typeName="Unit">
+              <characteristics>
+                <characteristic name="Shoot" typeId="e51e-c21c-82c7-cc74">4</characteristic>
+                <characteristic name="Close Combat" typeId="35b9-e1b9-c6af-8cd7">7</characteristic>
+                <characteristic name="Shoot Save" typeId="25f3-8abf-392e-c887">6</characteristic>
+                <characteristic name="Close Combat Save" typeId="7a04-e5ac-d545-f7bb">7</characteristic>
+                <characteristic name="Resolve" typeId="c797-eaf9-cb12-a26b">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="848b-0b35-bf5a-6034" name="Sniper Rifle" hidden="false" targetId="b312-55dd-ed0d-060a" type="rule"/>
+            <infoLink id="f331-c965-c3e8-dcd2" name="Sniper Rifle" hidden="false" targetId="493b-86a6-5de7-328d" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="8.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="817d-f061-40fd-85f5" name="Medic" publicationId="fd38-3108-091c-56fe" page="26" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5278-268f-ee89-1311" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b3a5-345b-568c-136a" name="Medic" hidden="false">
+          <description>At the cost of 4 points, a medic model can be added to any force and replaces one of the riflemen that make up the commander&apos;s unit. At the start of a turn the medic can remove 1 Fatigue Point from a unit within 6&quot; of the Medic model. The medic can perform this action two times per game and once per turn. The medic is not armed. The medic should be represented by an identifiable model. Forces are allowed only 1 medic.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="4.0"/>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5376-4d2b-0168-1fd2" name="Flagbearer/Musician" publicationId="fd38-3108-091c-56fe" page="26" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1305-bb0d-b57d-70f3" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="e99a-9766-d4bf-263f" name="Flagbearer/Musician" hidden="false">
+          <description>At the cost of 6 points, a Flagbearer or Musician can be added to any force and replace one of the riflemen that make up the commander&apos;s unit. The Flagbearer/Musician increases the commander&apos;s command range by 2&quot;. The Flagbearer/Musician is not armed. The Flagbearer/Musician should be represented by an identifiable model, such as a bagpiper. Forces are allowed only 1 The Flagbearer/Musician.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="6.0"/>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a88-95b4-7340-c826" name="Field Gun" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a02b-cefd-ceb7-9f23" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ff48-61c0-efc3-3f44" name="Field Gun" publicationId="e568-bb77-58cb-d3b5" page="" hidden="false" typeId="4e27-f466-2d49-aa96" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Arc of Fire" typeId="6825-d018-0d99-6301">Forward 180</characteristic>
+            <characteristic name="Range" typeId="7fd2-b7fd-b233-e1a6">-</characteristic>
+            <characteristic name="Shots" typeId="5d14-5c46-92b0-bc88">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3d4b-8a86-3df0-2ed4" name="Heavy (Field Gun)" hidden="false" targetId="ebae-515f-360d-7602" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="0f92-498f-edf5-4569" name="Soldier" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b3b-726a-61fd-588c" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08fc-1eb4-bcf0-fb75" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c0b6-6e61-272b-9949" name="Soldier" hidden="false" typeId="7fb1-1a16-229f-b7b6" typeName="Unit">
+              <characteristics>
+                <characteristic name="Shoot" typeId="e51e-c21c-82c7-cc74">6</characteristic>
+                <characteristic name="Close Combat" typeId="35b9-e1b9-c6af-8cd7">6</characteristic>
+                <characteristic name="Shoot Save" typeId="25f3-8abf-392e-c887">6</characteristic>
+                <characteristic name="Close Combat Save" typeId="7a04-e5ac-d545-f7bb">7</characteristic>
+                <characteristic name="Resolve" typeId="c797-eaf9-cb12-a26b">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="1.0"/>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="61f3-89ca-23ec-83e8" name="First Lieutenant Command Team" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="d88b-17f2-3a3d-4a39" name="Defensive Specialists" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+          <description>Units do not gain Fatigue when conducting Defensive Fire.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="61ae-8314-e472-7852" name="Commander" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d57a-027b-73df-206c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa4-a73f-019b-f4d6" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="578d-e964-f26d-67e9" name="Commander" hidden="false" typeId="4b8f-8ee3-acad-25cf" typeName="Commander">
+              <characteristics>
+                <characteristic name="Shoot" typeId="4076-f899-be35-c73f">6</characteristic>
+                <characteristic name="Close Combat" typeId="2a2e-b11b-4284-20c0">6</characteristic>
+                <characteristic name="Shoot Save" typeId="ed6d-9cfd-40b6-7413">5</characteristic>
+                <characteristic name="Close Combat Save" typeId="504f-18f4-abc8-206b">7</characteristic>
+                <characteristic name="Resolve" typeId="1031-dbaf-5b8f-ae44">6</characteristic>
+                <characteristic name="Command Range" typeId="7282-da2c-ef0f-ab9d">8</characteristic>
+                <characteristic name="Command Points" typeId="e94a-17a1-a679-da92">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="13b2-5175-4105-1524" name="Pistol" hidden="false" targetId="95d9-3498-0a39-1994" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="88f6-5d9f-9970-58cc" name="Riflemen" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="395b-02a6-a88c-b3ff" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154f-045e-7c73-e13f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6141-4bee-801b-490a" name="Riflemen" hidden="false" typeId="7fb1-1a16-229f-b7b6" typeName="Unit">
+              <characteristics>
+                <characteristic name="Shoot" typeId="e51e-c21c-82c7-cc74">6</characteristic>
+                <characteristic name="Close Combat" typeId="35b9-e1b9-c6af-8cd7">6</characteristic>
+                <characteristic name="Shoot Save" typeId="25f3-8abf-392e-c887">5</characteristic>
+                <characteristic name="Close Combat Save" typeId="7a04-e5ac-d545-f7bb">7</characteristic>
+                <characteristic name="Resolve" typeId="c797-eaf9-cb12-a26b">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b427-50c2-fc46-8493" name="Rifle" hidden="false" targetId="4a75-fe9a-7bc2-b2eb" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="2.0"/>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d18-9393-4d5e-2151" name="Second Lieutenant Command Team" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="2173-4db1-504d-1824" name="Defensive Specialists" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+          <description>Units do not gain Fatigue when conducting Defensive Fire.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="ea48-b5ba-47e3-3a43" name="Commander" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e13-723e-66a5-8fd2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09a0-a340-c710-e5a9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a85d-0ffb-9a10-8f5a" name="Commander" hidden="false" typeId="4b8f-8ee3-acad-25cf" typeName="Commander">
+              <characteristics>
+                <characteristic name="Shoot" typeId="4076-f899-be35-c73f">6</characteristic>
+                <characteristic name="Close Combat" typeId="2a2e-b11b-4284-20c0">6</characteristic>
+                <characteristic name="Shoot Save" typeId="ed6d-9cfd-40b6-7413">5</characteristic>
+                <characteristic name="Close Combat Save" typeId="504f-18f4-abc8-206b">7</characteristic>
+                <characteristic name="Resolve" typeId="1031-dbaf-5b8f-ae44">6</characteristic>
+                <characteristic name="Command Range" typeId="7282-da2c-ef0f-ab9d">8</characteristic>
+                <characteristic name="Command Points" typeId="e94a-17a1-a679-da92">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4e29-775a-e12c-923e" name="Pistol" hidden="false" targetId="95d9-3498-0a39-1994" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a664-28d0-cb0d-a5dd" name="Riflemen" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e749-321a-7b2c-ea24" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a297-7279-c420-a30d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="44e1-5b30-0ea8-385a" name="Riflemen" hidden="false" typeId="7fb1-1a16-229f-b7b6" typeName="Unit">
+              <characteristics>
+                <characteristic name="Shoot" typeId="e51e-c21c-82c7-cc74">6</characteristic>
+                <characteristic name="Close Combat" typeId="35b9-e1b9-c6af-8cd7">6</characteristic>
+                <characteristic name="Shoot Save" typeId="25f3-8abf-392e-c887">5</characteristic>
+                <characteristic name="Close Combat Save" typeId="7a04-e5ac-d545-f7bb">7</characteristic>
+                <characteristic name="Resolve" typeId="c797-eaf9-cb12-a26b">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1dd5-734b-7f0e-ff81" name="Rifle" hidden="false" targetId="4a75-fe9a-7bc2-b2eb" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="2.0"/>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa84-c618-7de4-5c70" name="Captain Command Team" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="7412-f144-e86a-3d0c" name="Defensive Specialists" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+          <description>Units do not gain Fatigue when conducting Defensive Fire.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d699-01b0-9189-66bf" name="Command Skills (+1)" hidden="false" targetId="5a5c-2535-e6a5-07f5" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="0efe-7bfc-16f5-694f" name="Commander" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7c2-ede4-2cbd-5f58" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18bc-32da-64bd-d743" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="07d3-556d-ac6a-e2bb" name="Commander" hidden="false" typeId="4b8f-8ee3-acad-25cf" typeName="Commander">
+              <characteristics>
+                <characteristic name="Shoot" typeId="4076-f899-be35-c73f">6</characteristic>
+                <characteristic name="Close Combat" typeId="2a2e-b11b-4284-20c0">6</characteristic>
+                <characteristic name="Shoot Save" typeId="ed6d-9cfd-40b6-7413">5</characteristic>
+                <characteristic name="Close Combat Save" typeId="504f-18f4-abc8-206b">7</characteristic>
+                <characteristic name="Resolve" typeId="1031-dbaf-5b8f-ae44">6</characteristic>
+                <characteristic name="Command Range" typeId="7282-da2c-ef0f-ab9d">12</characteristic>
+                <characteristic name="Command Points" typeId="e94a-17a1-a679-da92">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e7f7-7f1c-0375-73f6" name="Pistol" hidden="false" targetId="95d9-3498-0a39-1994" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="88d6-8fb6-50ef-e0f0" name="Riflemen" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03af-993c-1675-87df" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52e6-130f-3e30-1ebe" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b058-bb83-68e8-c8b5" name="Riflemen" hidden="false" typeId="7fb1-1a16-229f-b7b6" typeName="Unit">
+              <characteristics>
+                <characteristic name="Shoot" typeId="e51e-c21c-82c7-cc74">6</characteristic>
+                <characteristic name="Close Combat" typeId="35b9-e1b9-c6af-8cd7">6</characteristic>
+                <characteristic name="Shoot Save" typeId="25f3-8abf-392e-c887">5</characteristic>
+                <characteristic name="Close Combat Save" typeId="7a04-e5ac-d545-f7bb">7</characteristic>
+                <characteristic name="Resolve" typeId="c797-eaf9-cb12-a26b">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9a85-f186-2fd8-58af" name="Rifle" hidden="false" targetId="4a75-fe9a-7bc2-b2eb" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="2.0"/>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c887-b583-7201-4fd2" name="Riflemen" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="5a78-aa37-4324-ad0c" name="Defensive Specialists" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+          <description>Units do not gain Fatigue when conducting Defensive Fire.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="d8f3-7e51-0f22-2c48" name="Riflemen" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec42-9269-ae28-e9de" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="836e-2dbf-e74c-d24a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2663-b89c-c6aa-2654" name="Riflemen" hidden="false" typeId="7fb1-1a16-229f-b7b6" typeName="Unit">
+              <characteristics>
+                <characteristic name="Shoot" typeId="e51e-c21c-82c7-cc74">6</characteristic>
+                <characteristic name="Close Combat" typeId="35b9-e1b9-c6af-8cd7">6</characteristic>
+                <characteristic name="Shoot Save" typeId="25f3-8abf-392e-c887">6</characteristic>
+                <characteristic name="Close Combat Save" typeId="7a04-e5ac-d545-f7bb">7</characteristic>
+                <characteristic name="Resolve" typeId="c797-eaf9-cb12-a26b">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b113-86a5-e06a-a3c8" name="Rifle" hidden="false" targetId="4a75-fe9a-7bc2-b2eb" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="2066-691c-9580-38ff" name="Riflemen" hidden="false" targetId="67a1-13eb-7ebe-3e14" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="4.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4ac0-7265-29d9-170b" name="Grenades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e15-abba-5e99-ef6a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5c4c-421f-5982-7820" name="Grenades" publicationId="e568-bb77-58cb-d3b5" page="28" hidden="false" typeId="4e27-f466-2d49-aa96" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Arc of Fire" typeId="6825-d018-0d99-6301">360</characteristic>
+                <characteristic name="Range" typeId="7fd2-b7fd-b233-e1a6">4</characteristic>
+                <characteristic name="Shots" typeId="5d14-5c46-92b0-bc88">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="d7be-7213-dd93-5c74" name="Grenades" publicationId="e568-bb77-58cb-d3b5" page="28" hidden="false">
+              <description>Instead of rolling a noirmal Shoot skill test, roll 3D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Grenade saves). Defender removes 1 model for each failed save. Resolve test is performed as normal. A unit performing a Grenade attack cannot roll more attack dice than there are models left in the attacking unit.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="5.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b626-d15a-8b7e-7b98" name="Rifle Grenade" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="e5f6-60e7-524b-9759" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="67a1-13eb-7ebe-3e14" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f6-60e7-524b-9759" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="716b-6dab-e427-560f" name="Rifle Grenade" publicationId="e568-bb77-58cb-d3b5" page="28" hidden="false" typeId="4e27-f466-2d49-aa96" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Arc of Fire" typeId="6825-d018-0d99-6301">360</characteristic>
+                <characteristic name="Range" typeId="7fd2-b7fd-b233-e1a6">18</characteristic>
+                <characteristic name="Shots" typeId="5d14-5c46-92b0-bc88">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="c1a9-daed-d8bd-1a6c" name="Rifle Grenade" publicationId="e568-bb77-58cb-d3b5" page="28" hidden="false">
+              <description>If this weapon rolls a success on its Shoot action, roll 2 more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Rifle Grenade saves). Defender removes 1 model for each failed save. Resolve test is performed as normal.
+
+Friendly Troops do not block line of sight for Rifle Grenade&apos;s Shoot tests.</description>
+            </rule>
+          </rules>
+          <categoryLinks>
+            <categoryLink id="d38f-2361-c845-b3d7" name="Riflemen" hidden="false" targetId="67a1-13eb-7ebe-3e14" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="6.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4d49-9c51-b08e-3102" name="LMG" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="d7e5-3f91-2a2f-3676" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="67a1-13eb-7ebe-3e14" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7e5-3f91-2a2f-3676" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f8fe-2a50-97be-9258" name="Light Machine Gun (LMG)" publicationId="e568-bb77-58cb-d3b5" page="27" hidden="false" typeId="4e27-f466-2d49-aa96" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Arc of Fire" typeId="6825-d018-0d99-6301">360</characteristic>
+                <characteristic name="Range" typeId="7fd2-b7fd-b233-e1a6">-</characteristic>
+                <characteristic name="Shots" typeId="5d14-5c46-92b0-bc88">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="56ac-d011-7e22-6fcc" name="Riflemen" hidden="false" targetId="67a1-13eb-7ebe-3e14" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="8.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="3.0"/>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f385-9acb-cffa-67e2" name="Corporal Milunka Savic Riflemen" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8e3-4b01-4db0-32bc" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b60f-0963-9129-45e2" name="Defensive Specialists" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+          <description>Units do not gain Fatigue when conducting Defensive Fire.</description>
+        </rule>
+        <rule id="21f9-2d5a-0117-55d1" name="Milunka Savic" hidden="false">
+          <description>This unit can spend both actions to take two shoot actions in one turn.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="5d0f-daf2-7c19-9932" name="Milunka Savic" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5616-26b8-c85d-8e75" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f00-35bc-1b78-d788" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="1b26-4382-50bf-fd14" name="Riflemen" hidden="false" typeId="7fb1-1a16-229f-b7b6" typeName="Unit">
+              <characteristics>
+                <characteristic name="Shoot" typeId="e51e-c21c-82c7-cc74">6</characteristic>
+                <characteristic name="Close Combat" typeId="35b9-e1b9-c6af-8cd7">6</characteristic>
+                <characteristic name="Shoot Save" typeId="25f3-8abf-392e-c887">6</characteristic>
+                <characteristic name="Close Combat Save" typeId="7a04-e5ac-d545-f7bb">7</characteristic>
+                <characteristic name="Resolve" typeId="c797-eaf9-cb12-a26b">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7fbd-60c1-fcc0-a4bd" name="Rifle" hidden="false" targetId="4a75-fe9a-7bc2-b2eb" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="4227-802f-547f-8ec4" name="Riflemen" hidden="false" targetId="67a1-13eb-7ebe-3e14" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="4.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="58d0-b742-6785-65d7" name="Grenades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8207-81dd-82b8-f7fe" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="18d1-0c11-f151-36cb" name="Grenades" publicationId="e568-bb77-58cb-d3b5" page="28" hidden="false" typeId="4e27-f466-2d49-aa96" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Arc of Fire" typeId="6825-d018-0d99-6301">360</characteristic>
+                <characteristic name="Range" typeId="7fd2-b7fd-b233-e1a6">4</characteristic>
+                <characteristic name="Shots" typeId="5d14-5c46-92b0-bc88">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="0f25-58d4-3380-b955" name="Grenades" publicationId="e568-bb77-58cb-d3b5" page="28" hidden="false">
+              <description>Instead of rolling a noirmal Shoot skill test, roll 3D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Grenade saves). Defender removes 1 model for each failed save. Resolve test is performed as normal. A unit performing a Grenade attack cannot roll more attack dice than there are models left in the attacking unit.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="5.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2d21-8425-a71f-1a50" name="Rifle Grenade" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="a614-5285-b96f-c1ce" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="67a1-13eb-7ebe-3e14" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a614-5285-b96f-c1ce" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="14c2-fb93-3029-abb2" name="Rifle Grenade" publicationId="e568-bb77-58cb-d3b5" page="28" hidden="false" typeId="4e27-f466-2d49-aa96" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Arc of Fire" typeId="6825-d018-0d99-6301">360</characteristic>
+                <characteristic name="Range" typeId="7fd2-b7fd-b233-e1a6">18</characteristic>
+                <characteristic name="Shots" typeId="5d14-5c46-92b0-bc88">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="9882-61d3-480d-e31b" name="Rifle Grenade" publicationId="e568-bb77-58cb-d3b5" page="28" hidden="false">
+              <description>If this weapon rolls a success on its Shoot action, roll 2 more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Rifle Grenade saves). Defender removes 1 model for each failed save. Resolve test is performed as normal.
+
+Friendly Troops do not block line of sight for Rifle Grenade&apos;s Shoot tests.</description>
+            </rule>
+          </rules>
+          <categoryLinks>
+            <categoryLink id="0aba-3ad0-1e00-76ed" name="Riflemen" hidden="false" targetId="67a1-13eb-7ebe-3e14" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="6.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="986b-90c6-99cc-fe1c" name="LMG" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="cbc7-4e83-5540-a196" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="67a1-13eb-7ebe-3e14" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbc7-4e83-5540-a196" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a6e7-7eeb-6b77-7840" name="Light Machine Gun (LMG)" publicationId="e568-bb77-58cb-d3b5" page="27" hidden="false" typeId="4e27-f466-2d49-aa96" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Arc of Fire" typeId="6825-d018-0d99-6301">360</characteristic>
+                <characteristic name="Range" typeId="7fd2-b7fd-b233-e1a6">-</characteristic>
+                <characteristic name="Shots" typeId="5d14-5c46-92b0-bc88">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="9853-a842-d96c-9d4b" name="Riflemen" hidden="false" targetId="67a1-13eb-7ebe-3e14" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="8.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3fca-4ecf-cd01-4637" name="Riflemen" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9888-2a10-2baa-5278" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cb4-4fec-e3d1-71f0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="bdf8-0df1-0868-bf13" name="Riflemen" hidden="false" typeId="7fb1-1a16-229f-b7b6" typeName="Unit">
+              <characteristics>
+                <characteristic name="Shoot" typeId="e51e-c21c-82c7-cc74">6</characteristic>
+                <characteristic name="Close Combat" typeId="35b9-e1b9-c6af-8cd7">6</characteristic>
+                <characteristic name="Shoot Save" typeId="25f3-8abf-392e-c887">6</characteristic>
+                <characteristic name="Close Combat Save" typeId="7a04-e5ac-d545-f7bb">7</characteristic>
+                <characteristic name="Resolve" typeId="c797-eaf9-cb12-a26b">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3f51-d153-15b5-232e" name="Rifle" hidden="false" targetId="4a75-fe9a-7bc2-b2eb" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="895b-c661-3f39-d264" name="Riflemen" hidden="false" targetId="67a1-13eb-7ebe-3e14" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="4.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="3.0"/>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7991-244c-5599-93e1" name="Cavalry Unit" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="b349-2d8a-fcb2-176b" name="Furious Assault" publicationId="e568-bb77-58cb-d3b5" page="38" hidden="false">
+          <description>This unit may Charge from 6&quot; away from its target and adds 2&quot; to their Advance movement during Charge actions.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="fb3a-6f4a-cdae-288f" name="Cavalry" hidden="false" targetId="e7de-d771-1b12-2d8c" type="rule"/>
+        <infoLink id="b62c-f64c-9a4c-103d" name="Blood Curdling Charge" hidden="false" targetId="02f2-58f2-7d54-1d7c" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="e018-904b-ff6b-d0d1" name="Cavalry" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0408-c41b-8e4f-ded7" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3322-8655-4c31-a0ce" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4f7d-2f4b-7bc6-ee9f" name="Cavalry" hidden="false" typeId="7fb1-1a16-229f-b7b6" typeName="Unit">
+              <characteristics>
+                <characteristic name="Shoot" typeId="e51e-c21c-82c7-cc74">6</characteristic>
+                <characteristic name="Close Combat" typeId="35b9-e1b9-c6af-8cd7">5</characteristic>
+                <characteristic name="Shoot Save" typeId="25f3-8abf-392e-c887">6</characteristic>
+                <characteristic name="Close Combat Save" typeId="7a04-e5ac-d545-f7bb">6</characteristic>
+                <characteristic name="Resolve" typeId="c797-eaf9-cb12-a26b">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="68d4-5e03-77c3-cbe5" name="Rifle" hidden="false" targetId="4a75-fe9a-7bc2-b2eb" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Force Points" typeId="68ed-8066-7728-0393" value="7.0"/>
+            <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="1.0"/>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="14a4-bce3-3463-93aa" name="Cavalry Command Team" publicationId="fd38-3108-091c-56fe" page="26" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="3490-4654-2fb2-0116" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd5c-df4c-87ae-06f8" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3490-4654-2fb2-0116" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="00ec-883c-69fd-084a" name="Cavalry Command Team" hidden="false">
+          <description>If you have a Core Cavalry Unit in the Force, you may, at the cost of an additional 8 points for the unit, replace all the models in the Command Team with Cavalry models. The Command Team gains the Cavalry Special Rule.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Force Points" typeId="68ed-8066-7728-0393" value="8.0"/>
+        <cost name="Initiative" typeId="af03-e129-f64f-b0a5" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="354e-7acb-2dc2-15c0" name="Milunka Savic" hidden="false">
+      <description>This unit can spend both actions to take two shoot actions in one turn.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

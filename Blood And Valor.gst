@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8673-27a3-2308-77d8" name="Blood &amp; Valor" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8673-27a3-2308-77d8" name="Blood &amp; Valor" revision="5" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="e568-bb77-58cb-d3b5" name="Blood and Valor"/>
     <publication id="a2c8-e186-d505-1c23" name="FAQ v1 04/03/2020"/>
@@ -208,13 +208,13 @@ A unit successfully hit by this weapon takes an additional Fatigure before norma
 Line of Sight and Range are determined from the model holding the Sniper Rifle.</description>
     </rule>
     <rule id="d1fb-3652-6b51-f437" name="Tough" publicationId="e568-bb77-58cb-d3b5" page="38" hidden="false">
-      <description>Rmove 1 point of Fatigue from thsi unit before rolling during Rally actions.</description>
+      <description>Rmove 1 point of Fatigue from this unit before rolling during Rally actions.</description>
     </rule>
     <rule id="5de0-c83c-4d60-0a08" name="True Grit" publicationId="e568-bb77-58cb-d3b5" page="38" hidden="false">
       <description>This unit may reroll failed results during Close Combat Saves tests.</description>
     </rule>
     <rule id="1cea-3916-2430-f8a6" name="Die Hard" hidden="false">
-      <description>Unit’s with the Die Hard special rule do not fall back when they are shaken, they will still be reduced by 1 action if they have 2 or more fatigue. The unit can conduct defensive fire and gain fatigue points upto a maximum of 6 fatigue points. The unit will be removed from play if it is destroyed, has twice as many fatigue points as models remaining in the unit or the unit gains 7 fatigue points. </description>
+      <description>Unit’s with the Die Hard special rule do not become Shaken when they have 3 or more Fatigue, they will still be reduced by 1 action if they have 2 or more Fatigue. The unit can conduct defensive fire and gain Fatigue points upto a maximum of 6 fatigue points. The unit will be removed from play if it is destroyed, has twice as many Fatigue points as models remaining in the unit or the unit gains 7 Fatigue points.</description>
     </rule>
     <rule id="71b0-7f9c-9ebe-7274" name="Counter Charge" hidden="false">
       <description>This unit may make a melee defensive attack instead of defensive fire.</description>
@@ -241,8 +241,112 @@ Trench Mortars do nto affect tanks and armored vehicles.</description>
     <rule id="e48e-49e8-26e2-206c" name="Tankgeweher" hidden="false">
       <description>When shooting at a tank or armored car with a Tankgeweher, the attack rolls 1D10. If the armored vehicle is hit, the defender being attacked rolls 3 dice for their resolve test. For each result of a 1 during the Resolve test, the attacking player makes 1 roll on the Lucky Hits table.</description>
     </rule>
-    <rule id="0884-1bac-1fe6-e9ca" name="Tachanka" publicationId="fd38-3108-091c-56fe" page="28" hidden="false">
-      <description>A horse-drawn machine gun, usually a cart or an open wagon with a Heavy Machine Gun installed in the back. A tachanka could be pulled by two to four horses and required a crew of two or three (one driver and a machine gun crfew).</description>
+    <rule id="0884-1bac-1fe6-e9ca" name="Tachanka" publicationId="fd38-3108-091c-56fe" page="23" hidden="false">
+      <description>This unit cannot be included into a Froce if the Force has not models with the Cavalry special rule.
+
+This unit may take a free Advance action each time the unit activates. If this unit is Shaken at the start of its activation it cannot take the free Advance action.
+
+While this unit is mounted in the Tachanka cart add +1 to the target number of shoot saves taken by this unit.
+
+Tachanka units cannot move through trenches, ruined or intact buildings, or barbed wire.
+
+As a free action, the unit may Dismount and send their Tachanka to the rear. To dismount, replace the Tachanka model with a Heavy Machine Gun model. Dismounted Tachanka units lose the Tachanka rule and cannot mount their Tachanka again.
+
+Wile mounted, if the crew of the Tachanka is ever reduced to 1 model, the gun can no longer take a Shoot action in teh same activation that it takes and Advance action, the unit loses the free Advance action, plus the Heavy Machine Gun cannot be dismounted.
+
+Unlike other vehicles, Tachanka units can receive Command Points, and are affected by the commander&apos;s Resolve bonus and the Grand Manuever.</description>
+    </rule>
+    <rule id="902f-25a4-c283-7b0e" name="An Army of Many Nations" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+      <description>Austrian-Hungarian Army commander&apos;s commmand range is reduced to half when giving command points to Support units in their force. Austrian-Hungarian Support units cost less than otehr force&apos;s support units.</description>
+    </rule>
+    <rule id="4f40-f9c1-12e7-d697" name="Agitation" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+      <description>Once per its activation, the unit can give a command point for a Rally action to an enemy unit within 4&quot; and use it to trigger the Deserters special rule.</description>
+    </rule>
+    <rule id="d7da-2859-c77c-4d84" name="Bravado" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+      <description>If this unit starts an activation with any amount of fatigue, roll a D10, if the result is equal to or higher than the unit&apos;s resolve value, it begins its activation with one fewer fatigue.</description>
+    </rule>
+    <rule id="e23d-b13b-7953-eaae" name="Combat Fatigue" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+      <description>If any unit has 1 or 2 fatigue then gain a -1 to the target skill number for Close Combat and Shoot Skill tests. Units with this special rule are removed from play when they reach 6 Fatigue points.</description>
+    </rule>
+    <rule id="259a-de2a-6bd2-dc57" name="Counter Charge" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+      <description>This unit may make a melee defensive attack instead of defensive fire.</description>
+    </rule>
+    <rule id="9cab-6dd1-e5d5-6007" name="Defensive Specialists" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+      <description>Units do not gain Fatigue when conducting Defensive Fire.</description>
+    </rule>
+    <rule id="8cd5-a29c-a705-865d" name="Deserters" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+      <description>If this unit has 3 or more Fatigue, and it is in the enemy Commander&apos;s command range, the enemy Commander can use a Command Point to give a Rally action to this unit. If the unit has 2 or fewer Fatigue after this Rally action, it is now controlled by the enemy player and should be marked as activated for the current turn. When attempting to take control of the unit, treat the unit as Disordered and Resolve 7; it gains the Disordered special rule and Resolve 7 for the rest of the game, if the player is succesful in gaining control of the unit. When a force gains a nwe unit in this manner the controlling player gains 1 initiative point to their force initiative pool, and the original owner of the unit loses initiative points for the unit as if it was removed from play.</description>
+    </rule>
+    <rule id="71c3-4250-31b7-500a" name="Determination" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+      <description>The unit becomes Shaken at 4 Fatigue, they will still be reduced by 1 action if they have 2 or more Fatigue. If the unit takes a Rally Test while shaken the unit&apos;s Resolve target skill roll is reduced by -1.</description>
+    </rule>
+    <rule id="3bd0-5063-dbdc-35d7" name="Diverse Cadre" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+      <description>During Setup, after you deploy a Core Unit, roll a D10. On a roll of 6+, place the &quot;Eager&quot; token next to the unit, and use the unbracketed values of for Resolve and Initiative of the deployed unit for the entire game. Otherwise, place the &quot;Prudent&quot; token next to the unit, and use the values given in the brackets.</description>
+    </rule>
+    <rule id="71ba-ecdb-1719-f30b" name="Disordered" publicationId="fd38-3108-091c-56fe" page="22" hidden="false">
+      <description>When the unit receives a Command Point, roll a D10 with the Target Value of 6+, if you fail the roll, the Command Point is lost, and the unit cannot perform the extra Action. Alternatively, before making the roll, you may spend 2 Initiative Points and treat the result of the roll as a success.</description>
+    </rule>
+    <rule id="7b21-7359-ae5a-0e1d" name="For the Ataman!" publicationId="fd38-3108-091c-56fe" page="22" hidden="false">
+      <description>-If the Atamanschina player wins the Initiative bid, Command and Core units gain the Ruthless special rule until the next Initiative bidding.
+
+-If the Atamanschina player loses the Initiative bid, Command and Core units gain the Timid special rule until the next Initiative bidding.</description>
+    </rule>
+    <rule id="1df7-0d18-3d82-b1cc" name="Information Officer" publicationId="fd38-3108-091c-56fe" page="22" hidden="false">
+      <description>Once per game, after your opponent places their initiative bid token, the information officer will force them to reveal their bid. The player activating their information offcier can now change their initiative bid. Players must declare they are using the Information Officer special rule before initiative bids are revealed. If both players wish to use Information Officers, players roll a D10 and the winner is able to use the officer. The loser of the roll loses the use of the officer for the turn, but may use the officer later in the game.</description>
+    </rule>
+    <rule id="1f03-aad4-e26a-d7ff" name="Intimidation" publicationId="fd38-3108-091c-56fe" page="22" hidden="false">
+      <description>If an enemy unit takes a resolve test as a result of close combat add and additional D10 to the total number of resolve dice to be rolled.</description>
+    </rule>
+    <rule id="f3b5-2197-956d-ab3e" name="Insurgency" publicationId="fd38-3108-091c-56fe" page="22" hidden="false">
+      <description>When the command unit is activated during the game, it may use a Command Point to call up a unit from reserve. Only 1 unit can be called up from reserve each turn. The called up unit is placed within the commander&apos;s command range and at least 8&quot; away from enemy units. The unit called up from reserve is not counted as activated and can be activated later in the turn.</description>
+    </rule>
+    <rule id="a3b6-9d0d-ff86-ea5f" name="&quot;It Is Not Our War&quot;" publicationId="fd38-3108-091c-56fe" page="22" hidden="false">
+      <description>If the player with this rule has more initiative points left at the end of the turn than the opponent, they may remove 1 point of Fatigue from 1 unit in their force.</description>
+    </rule>
+    <rule id="d919-03f3-4cfb-47b0" name="Long Live Anarchy!" publicationId="fd38-3108-091c-56fe" page="22" hidden="false">
+      <description>-During Setup, Anarchist Army forces may deploy any number of their units, holding any number of core units in reserve. Only the deployed units provide their Initiative Points to that force&apos;s initiative pool.
+
+-If the Anarchist Army force loses the Initiative bid, Command and Core units gain the Disordered specail rule unitl the next Initiative bidding.</description>
+    </rule>
+    <rule id="d155-5d2f-f194-6858" name="Long Live Free Ukraine" publicationId="fd38-3108-091c-56fe" page="22" hidden="false">
+      <description>-If the Ukranian People&apos;s Army player wins the Initiative bid, Command and Core units gain the Disordered special rule unitl the next Initiative bidding.
+
+-If the Ukranian People&apos;s Army player loses the Initiative bid, Command and Core units gain the Ruthless special rule unitl the next Initiative bidding. The Ukranian People&apos;s Army player may spend 2 Initiative points to place a Take Cover token next to one of the Command or Core units.</description>
+    </rule>
+    <rule id="6d4a-e701-a6fc-bd6f" name="Lost Hope" publicationId="fd38-3108-091c-56fe" page="22" hidden="false">
+      <description>The unit becomes Shaken at 4 Fatigue, they will still be reduced by 1 action if they have 2 or more Fatigue. When the unit takes a Resolve test and is not Shaken, it has their Resolve value reduced by -1; conversely if the unit takes a resolve roll while Shaken their Resolve target value increases by +1.</description>
+    </rule>
+    <rule id="2db9-e32a-f36a-cd7d" name="Marksman" publicationId="fd38-3108-091c-56fe" page="22" hidden="false">
+      <description>When this unit takes a Shoot action resulting in casualties from the targeted unit, the targeted unit rerolls 1 successful Resolve test.</description>
+    </rule>
+    <rule id="0a44-2ba7-15f3-3df3" name="Poorly Trained" publicationId="fd38-3108-091c-56fe" page="23" hidden="false">
+      <description>When taking a Shoot or Charge action, the unit can only target the closest enemy unit. If two target units are equal distance from the unit, the player controlling the unit decides which unit to attack.</description>
+    </rule>
+    <rule id="f558-5969-6bab-87f6" name="Power to the Soviets" publicationId="fd38-3108-091c-56fe" page="23" hidden="false">
+      <description>Once per turn, when players place their Initiative bids, but before they are revealed, the player with this rule can announce that they are using the &quot;Power of the Soviets&quot; special rule. If the player wins the Initiative bid, the activated unit gains a Command Point with a Command Range of 4&quot;. If the initiative big is lost the special rule has not effect. This special rule cannot be used when activating a command unit. You cannot use the rule if the opponent has activated all their units and therefore cannot place a bid.</description>
+    </rule>
+    <rule id="9d63-9a37-dce9-7e0d" name="Scarce Ammunition" publicationId="fd38-3108-091c-56fe" page="23" hidden="false">
+      <description>If this unit loses the Initiative bid, it cannot perform a Shoot action and cannot use Command Points to issue a Shoot action during this activation.</description>
+    </rule>
+    <rule id="da29-51c5-8f7a-7646" name="Banzai Charge" publicationId="fd38-3108-091c-56fe" page="21" hidden="false">
+      <description>Japanese commanders can use the Grand Manuever to order Japanese units to charge into close combat. Japanese units can use the Furious Charge special rule when performing a Grand Manuever.</description>
+    </rule>
+    <rule id="da99-5ce9-2bee-8247" name="Timid" publicationId="fd38-3108-091c-56fe" page="24" hidden="false">
+      <description>If a unit within 5&quot; of this unit takes casualties, this unit must make a Resolve test on a single D10.</description>
+    </rule>
+    <rule id="df28-0d7b-7e17-a554" name="Will of the People!" publicationId="fd38-3108-091c-56fe" page="24" hidden="false">
+      <description>If the Partizanschina player wins the Initiative bid, Command and Core units gain the Devil Dogs special rule until the next Initiative bidding.
+
+If the Partizanschina player loses the Initiative bid, Command and Core units gain the Discordered special rule until the next Initiative bidding.</description>
+    </rule>
+    <rule id="1d94-882d-2476-8122" name="Udarny" publicationId="fd38-3108-091c-56fe" page="24" hidden="false">
+      <description>Udarny Revolutionary Army of Free Russia units (Shock Troops) can issue one Command Point per turn to one Regular Revolutionary Army of Free Russia unit within 4&quot;.</description>
+    </rule>
+    <rule id="bb1f-174a-0698-c77f" name="Unseen Attacks" publicationId="fd38-3108-091c-56fe" page="24" hidden="false">
+      <description>At the beginning of each turn, before the first Initiative bid is placed, this player may force an enemy unit to make a Resolve test by rolling one D10. If the Resolve test is failed the enemy unit gains 1 Fatigue point. If this causes the unit to become Shaken, the unit immediately makes a fall back move.</description>
+    </rule>
+    <rule id="fc5b-3520-74f8-fa51" name="Uraa!" publicationId="fd38-3108-091c-56fe" page="24" hidden="false">
+      <description>Once per turn one Core unit or Command unit gains an extra action. This cannot be used if the unit is Shaken.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
