@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8673-27a3-2308-77d8" name="Blood &amp; Valor" revision="5" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8673-27a3-2308-77d8" name="Blood &amp; Valor" revision="6" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="e568-bb77-58cb-d3b5" name="Blood and Valor"/>
     <publication id="a2c8-e186-d505-1c23" name="FAQ v1 04/03/2020"/>
@@ -41,6 +41,13 @@
       <characteristicTypes>
         <characteristicType id="2c8d-ddc8-44ef-6d91" name="Cost"/>
         <characteristicType id="c82a-00b4-f0cc-ca5f" name="Initiative"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="7edc-748a-d4fe-a402" name="Vehicle">
+      <characteristicTypes>
+        <characteristicType id="1ecf-61a9-e748-13a5" name="Shoot"/>
+        <characteristicType id="0bc6-7492-6f5a-afd1" name="Resolve"/>
+        <characteristicType id="a985-d4b6-0f2b-b8a7" name="Weapons"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -348,6 +355,13 @@ If the Partizanschina player loses the Initiative bid, Command and Core units ga
     <rule id="fc5b-3520-74f8-fa51" name="Uraa!" publicationId="fd38-3108-091c-56fe" page="24" hidden="false">
       <description>Once per turn one Core unit or Command unit gains an extra action. This cannot be used if the unit is Shaken.</description>
     </rule>
+    <rule id="c306-c305-c218-c78a" name="Heavy Gun (Vehicle)" publicationId="e568-bb77-58cb-d3b5" page="97" hidden="false">
+      <description>If this weapon rolls a success on its Shoot action, roll 5 or more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 instead of a normal save (cover bonuses are not applied for Saves against Heavy Gun damage). Defender removes 1 model for each failed save. Resolve test is performed as normal.</description>
+    </rule>
+    <rule id="de76-0db6-f704-a45e" name="Heavy Machine Gun (Vehicle)" publicationId="e568-bb77-58cb-d3b5" page="97" hidden="false">
+      <description>(+1) to the target number of save tests taken as a result of being hit by this weapon.</description>
+    </rule>
+    <rule id="e35b-5dd7-8a32-3319" name="Regular" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="4782-36f7-377c-8416" name="Flamethrower" publicationId="e568-bb77-58cb-d3b5" page="27" hidden="false" typeId="4e27-f466-2d49-aa96" typeName="Weapon">
